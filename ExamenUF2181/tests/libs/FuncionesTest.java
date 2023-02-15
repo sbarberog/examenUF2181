@@ -37,7 +37,6 @@ class FuncionesTest {
 	}
 
 	@Test
-
     void testMinutosEntre() {
           assertEquals(130, f.minutosEntre(12,20,14,30));
           assertEquals(130, f.minutosEntre(14,30,12,20));
